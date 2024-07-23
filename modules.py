@@ -3,6 +3,7 @@ import torch.nn as nn
 
 import numpy as np
 
+import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import ImageGrid
 
 class VAE(nn.Module):
@@ -59,7 +60,7 @@ def loss_function(x, x_hat, mean, log_var):
     KLD = - 0.5 * torch.sum(1+ log_var - mean.pow(2) - log_var.exp())
     return reproduction_loss + KLD
 
-def visualise_dataset(train_loader, plt, grayscale=True):
+def visualise_dataset(train_loader, grayscale=True):
     dataiter = iter(train_loader)
     image = next(dataiter)
 
