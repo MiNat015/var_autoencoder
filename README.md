@@ -5,6 +5,7 @@ PyTorch implementation of the Variational Autoencoder.
 Arjun Srikanth (Final Year Student of Computer Science)
 
 ## Project Overview
+![alt text](https://github.com/[MiNat015]/[var_autoencoder]/imgs/model.png?raw=true)
 This project demonstrates the use of a Variational Autoencoder (VAE) to generate images. VAEs are powerful generative models that learn to encode data into a latent space, from which new data can be generated. The implementation is done using PyTorch, and the project includes training, data augmentation, and evaluation of the VAE on a standard image dataset.
 
 ## Variational Autoencoder
