@@ -29,13 +29,10 @@ A Variational Autoencoder (VAE) is a generative model that learns the underlying
 ## Datasets
 The project uses the MNIST and CIFAR10 datasets for training and testing. The MNIST dataset is a large database of handwritten digits commonly used for training various image processing systems. The dataset consists of 60,000 training images and 10,000 test images, each of size 28x28 pixels. The CIFAR10 dataset consists of 60,000 32x32 color images in 10 different classes.
 <p align="center">
-<img src="./imgs/mnist_data.png" width=50% height=50% 
-class="center">
+  <img src="./imgs/mnist_data.png" width=45% height=45% class="center">
+  <img src="./imgs/cifar10_data.png" width=45% height=45% class="center">
 </p>
-<p align="center">
-<img src="./imgs/cifar10_data.png" width=50% height=50% 
-class="center">
-</p>
+
 ### Training
 
 ### Data Augmentation
